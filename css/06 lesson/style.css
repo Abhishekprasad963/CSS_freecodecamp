@@ -1,0 +1,60 @@
+/* typography is the way that texxt is arranged and presented */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    /* color: blue; */
+    /* font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace; */
+    /* font-family: fantasy; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Roboto", sans-serif;
+
+
+}
+/* the font size on body dooesnt change tthe font 
+on the form input of htmll code so we have  to write anottheerr
+input for them */
+/* input,button{
+    font:inherit;
+} */
+
+p{
+    /* text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;/* this remove default seetting */ 
+
+
+
+   /*  text-transform: capitalize;
+    text-transform: lowercase; */
+   /*  text-transform: uppercase; */
+
+
+   /* text-align: justify;
+   text-align: right; */
+  /*  text-align: left; */
+
+
+   /* text-indent: 2em; *//* this shifts the first line towards right side */
+
+
+
+   line-height: 1.5;
+  /*  letter-spacing: 0.1em;
+   word-spacing: 0.5em;  */
+
+
+     /* font-weight:bolder ; */
+     /* font-style: italic;
+     font-style: oblique; */
+    /*  font-style: normal; *//* normal default */
+   
+
+
+
+}

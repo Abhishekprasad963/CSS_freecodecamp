@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;/* it removes the default underline given by dave grey */
+    cursor: pointer;
+    color:hsl(160, 100%, 50%);
+}
+/* a:visited{
+    color:violet;
+} */
+a:hover,a:focus{
+    color: hsl(180, 100%, 50%);
+    opacity: 0.8;
+    background: gold;
+}
+a:active{
+    color: #ff0000;
+}

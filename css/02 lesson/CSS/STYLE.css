@@ -1,0 +1,27 @@
+
+html{
+    font-size: 22px;
+}
+
+p{
+    color: rgb(140, 0, 255);
+}
+h1,h2{
+
+    color: blue;
+}
+.gray{
+    color: blueviolet;
+}
+#second{
+    color: rgb(255, 127, 234);
+    font-style: italic;
+}
+span{
+    text-transform: uppercase;
+    color: green;
+}
+.highlight{
+    text-decoration: dotted;
+    background-color: red;
+}

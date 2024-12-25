@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;/*REM means root of the default browzer setting or in short it amplify the default value of the browser
+    while EM doesnt relate with default setting of the browser */
+    padding: 0.5rem;
+}
+main{
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    width: 40ch;
+}

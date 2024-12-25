@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+ol{
+    list-style-type: upper-roman;
+    color: red;
+}
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: outside;
+    color: blue;
+    line-height: 1.5;
+    list-style-image: url('./images/checkmark\ \(2\).png');
+   /*  list-style-image: url('../08\ lesson/'); 
+   *//* from two dot main folder get oper "here css"  and from one dot like the upper one most near main folder get open*/
+  list-style-image: square url(./images/checkmark\ \(2\).png);
+  list-style-position: inside;
+}
+ul li:nth-child(2){
+    color: red;/*this turns the 2nd point of ul to red  */
+}
+ul li:nth-child(odd){
+    color: red;/* this turns odd no to red */
+}
+
+ul::marker{
+    color: rgb(60, 0, 255);
+    font-size: 1em;
+    content: "only $5>>";
+
+
+}
